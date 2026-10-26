@@ -11,8 +11,8 @@ encounters under 19 different elicitation conditions. The conditions differ only
 in the instruction appended to an otherwise identical prompt: whether the model
 must produce a justification, whether that justification is recorded, and which
 harm the justification is required to name. The patient information is byte-identical
-across conditions. Five further conditions, added during peer review, repeat the
-recorded-note and risk-valence prompts with the phrase "subject to
+across conditions. An additional ablation repeats five of these conditions, the
+recorded-note and risk-valence prompts, with the phrase "subject to
 quality-assurance audit and medico-legal review" removed.
 
 The headline result is that requiring a model to document the risks of
