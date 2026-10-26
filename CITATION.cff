@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the article below."
+title: "Explainability Is Not Decision-Neutral in Clinical Language Models"
+abstract: >-
+  Code and decision-level data to reproduce every result in the accompanying
+  article on how the way a decision is elicited from a clinical language model
+  changes what the model decides.
+type: software
+license: MIT
+repository-code: "https://github.com/dorkyphilip/explainability-not-decision-neutral"
+keywords:
+  - clinical decision support
+  - large language models
+  - explainability
+  - emergency medicine
+  - reproducibility
+authors:
+  - family-names: Jarrett
+    given-names: Philip
+  - family-names: Thoppil
+    given-names: Joby
+  - family-names: Reeder
+    given-names: Jonathan
+  - family-names: Mirus
+    given-names: Carl
+    name-suffix: IV
+  - family-names: Taylor
+    given-names: R. Andrew
+preferred-citation:
+  type: article
+  title: "Explainability Is Not Decision-Neutral in Clinical Language Models"
+  journal: "PLOS Digital Health"
+  year: 2026
+  authors:
+    - family-names: Jarrett
+      given-names: Philip
+    - family-names: Thoppil
+      given-names: Joby
+    - family-names: Reeder
+      given-names: Jonathan
+    - family-names: Mirus
+      given-names: Carl
+      name-suffix: IV
+    - family-names: Taylor
+      given-names: R. Andrew

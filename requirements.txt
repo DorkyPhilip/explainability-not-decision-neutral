@@ -1,0 +1,15 @@
+# Exact versions used to produce the published results (Python 3.13.1).
+#
+# Only numpy is required to verify the reported statistics from the released
+# decision-level dataset. matplotlib is required to regenerate the figures.
+# duckdb and openai are required only to rebuild the cohorts and re-run
+# inference, which additionally requires credentialed dataset access.
+
+numpy==2.3.3
+matplotlib==3.10.6
+
+# Cohort construction from the source datasets (credentialed access required).
+duckdb==1.4.4
+
+# Inference against an OpenAI-compatible endpoint (API key required).
+openai==1.68.2

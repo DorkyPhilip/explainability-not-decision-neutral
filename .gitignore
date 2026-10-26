@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Cohort files and raw run logs are derived from credentialed source data and
+# must not be committed. The released decision-level dataset (data/decisions.csv.gz)
+# contains only model outputs and study identifiers and IS committed, as is
+# data/cohort_manifest.csv, which holds encounter identifiers and nothing else.
+*_cohort.jsonl
+*_raw*.jsonl
+*.duckdb
+*.tif
+
+# Regenerated from credentialed source data by cohort/export_labels.py.
+data/clinician_labels.csv
+
+# figures/ is tracked: every panel is an aggregate over the released decision
+# dataset and contains no patient-level content.
